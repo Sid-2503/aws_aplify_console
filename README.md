@@ -7,7 +7,10 @@ Steps to deploy static website on AWS S3
    Sign in to AWS Console. In seacrh box type S3 and click on it .
    Choose create a new bucket.
    Give name to your Bukcet and click on create .
-2. Enable static web hosting :
+   
+![1](https://github.com/Sid-2503/aws_s3website/assets/89977643/8781d5f6-139e-4ea4-84e6-e2848d0db899)
+
+3. Enable static web hosting :
    Click on name of your bucket .
    Go to permissions section .
    Scroll Down and click on edit option of static web hosting.
@@ -25,5 +28,8 @@ Steps to deploy static website on AWS S3
 6. Uploading files :
    This step can be performed after creating bucket or at this moment too, Depends on you choice
    Click on Object, Select upload file option and upload the .html files
+  ![2](https://github.com/Sid-2503/aws_s3website/assets/89977643/d9f7371d-054e-4ced-9800-0cdaa45027f1)
 7.Test your website endpoint
   In properties option go to statc web hosting option and click on website endpoint. The website will be displayed.
+![4](https://github.com/Sid-2503/aws_s3website/assets/89977643/a3be4fd7-d28c-4c77-a559-964b9582975b)
+ ![3](https://github.com/Sid-2503/aws_s3website/assets/89977643/c2a60f14-bb5c-486f-9943-c84f098f4d6d)
