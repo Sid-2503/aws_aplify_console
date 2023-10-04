@@ -1,5 +1,5 @@
 # aws_s3
-Deploying simple static websiye using **AWS S3**
+Deploying simple static website using **AWS S3**
 **Amazon S3 (Simple Storage Service)** is a cloud storage service by AWS. It stores and retrieves data, organized in buckets, with high scalability, durability, and security. It is commonly used for backups, hosting static websites, media storage, data lakes, and more. S3's features include versioning, access controls, encryption, and seamless integration with other AWS services.
 
 Steps to deploy static website on AWS S3
