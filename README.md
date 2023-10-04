@@ -10,22 +10,22 @@ Steps to deploy static website on AWS S3
    
 ![1](https://github.com/Sid-2503/aws_s3website/assets/89977643/8781d5f6-139e-4ea4-84e6-e2848d0db899)
 
-3. Enable static web hosting :
+2. Enable static web hosting :
    Click on name of your bucket .
    Go to permissions section .
    Scroll Down and click on edit option of static web hosting.
    Enable static web hosting and under Index Document enter the index.html.
    To provide custom error document give name of error.html.
    Choose Save Changes .
-4.Edit Block Public Access settings
+3.Edit Block Public Access settings
   In security option go to block public access bar and click on edit and clear all checkboxes.
-5.Add a bucket policy that makes your bucket content publicly available
+4.Add a bucket policy that makes your bucket content publicly available
    In Permissions section go to bucket policy and click on edit .
    It generates the arn number copy it .
    There is option of policy generator , select appropriate options and at last select GetObject option, Policy will be Generated copy and paste it in bucket 
    policy 
    and click on save.
-6. Uploading files :
+5. Uploading files :
    This step can be performed after creating bucket or at this moment too, Depends on you choice
    Click on Object, Select upload file option and upload the .html files
   ![2](https://github.com/Sid-2503/aws_s3website/assets/89977643/d9f7371d-054e-4ced-9800-0cdaa45027f1)
